@@ -1,5 +1,7 @@
 # EDGAR Lens
 
+[![CI](https://github.com/aaryank077/edgar-lens/actions/workflows/ci.yml/badge.svg)](https://github.com/aaryank077/edgar-lens/actions/workflows/ci.yml)
+
 A Spring Boot service that turns raw SEC EDGAR XBRL filings into clean annual financials and a
 discounted cash flow (DCF) valuation for any US public company.
 
