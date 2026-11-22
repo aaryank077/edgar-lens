@@ -1,0 +1,56 @@
+{
+  "cik": 1234567,
+  "entityName": "Sample Corp",
+  "facts": {
+    "us-gaap": {
+      "SalesRevenueNet": {
+        "units": { "USD": [
+          { "start": "2016-01-01", "end": "2016-12-31", "val": 800,  "fy": 2016, "fp": "FY", "form": "10-K", "filed": "2017-02-15" },
+          { "start": "2017-01-01", "end": "2017-12-31", "val": 900,  "fy": 2017, "fp": "FY", "form": "10-K", "filed": "2018-02-15" }
+        ] }
+      },
+      "RevenueFromContractWithCustomerExcludingAssessedTax": {
+        "units": { "USD": [
+          { "start": "2017-01-01", "end": "2017-12-31", "val": 905,  "fy": 2018, "fp": "FY", "form": "10-K", "filed": "2019-02-15" },
+          { "start": "2018-01-01", "end": "2018-12-31", "val": 1000, "fy": 2018, "fp": "FY", "form": "10-K", "filed": "2019-02-15" },
+          { "start": "2018-10-01", "end": "2018-12-31", "val": 260,  "fy": 2018, "fp": "FY", "form": "10-K", "filed": "2019-02-15" },
+          { "start": "2019-01-01", "end": "2019-03-31", "val": 270,  "fy": 2019, "fp": "Q1", "form": "10-Q", "filed": "2019-05-01" }
+        ] }
+      },
+      "NetIncomeLoss": {
+        "units": { "USD": [
+          { "start": "2016-01-01", "end": "2016-12-31", "val": 80,  "fy": 2016, "fp": "FY", "form": "10-K", "filed": "2017-02-15" },
+          { "start": "2017-01-01", "end": "2017-12-31", "val": 90,  "fy": 2017, "fp": "FY", "form": "10-K", "filed": "2018-02-15" },
+          { "start": "2018-01-01", "end": "2018-12-31", "val": 100, "fy": 2018, "fp": "FY", "form": "10-K", "filed": "2019-02-15" },
+          { "start": "2018-01-01", "end": "2018-12-31", "val": 95,  "fy": 2019, "fp": "FY", "form": "10-K/A", "filed": "2019-06-01" }
+        ] }
+      },
+      "NetCashProvidedByUsedInOperatingActivities": {
+        "units": { "USD": [
+          { "start": "2018-01-01", "end": "2018-12-31", "val": 150, "fy": 2018, "fp": "FY", "form": "10-K", "filed": "2019-02-15" }
+        ] }
+      },
+      "PaymentsToAcquirePropertyPlantAndEquipment": {
+        "units": { "USD": [
+          { "start": "2018-01-01", "end": "2018-12-31", "val": 30, "fy": 2018, "fp": "FY", "form": "10-K", "filed": "2019-02-15" }
+        ] }
+      },
+      "WeightedAverageNumberOfDilutedSharesOutstanding": {
+        "units": { "shares": [
+          { "start": "2018-01-01", "end": "2018-12-31", "val": 10, "fy": 2018, "fp": "FY", "form": "10-K", "filed": "2019-02-15" }
+        ] }
+      },
+      "CashAndCashEquivalentsAtCarryingValue": {
+        "units": { "USD": [
+          { "end": "2018-12-31", "val": 50, "fy": 2018, "fp": "FY", "form": "10-K", "filed": "2019-02-15" },
+          { "end": "2018-06-30", "val": 45, "fy": 2018, "fp": "Q2", "form": "10-Q", "filed": "2018-08-01" }
+        ] }
+      },
+      "LongTermDebt": {
+        "units": { "USD": [
+          { "end": "2018-12-31", "val": 20, "fy": 2018, "fp": "FY", "form": "10-K", "filed": "2019-02-15" }
+        ] }
+      }
+    }
+  }
+}

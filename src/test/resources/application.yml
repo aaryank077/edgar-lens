@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:edgarlens;MODE=PostgreSQL;DB_CLOSE_DELAY=-1
+    username: sa
+    password: ""
+  jpa:
+    hibernate:
+      ddl-auto: none
+    open-in-view: false
+
+edgar:
+  sec:
+    user-agent: EdgarLens test-suite
+    data-base-url: http://localhost:1
+    tickers-url: http://localhost:1/tickers.json
+    requests-per-second: 100
+    max-attempts: 3
+    initial-backoff: 10ms
+  cache:
+    ttl: 24h

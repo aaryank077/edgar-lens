@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: edgar-lens
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/edgarlens}
+    username: ${DATABASE_USER:edgarlens}
+    password: ${DATABASE_PASSWORD:edgarlens}
+  jpa:
+    hibernate:
+      ddl-auto: none  # Flyway owns the schema
+    open-in-view: false
+  flyway:
+    enabled: true
+
+edgar:
+  sec:
+    # SEC requires a descriptive User-Agent with contact info, e.g. "EdgarLens your-email@example.com".
+    user-agent: ${SEC_USER_AGENT:EdgarLens (set SEC_USER_AGENT to your name and email)}
+    data-base-url: https://data.sec.gov
+    tickers-url: https://www.sec.gov/files/company_tickers.json
+    requests-per-second: 8
+    max-attempts: 4
+    initial-backoff: 500ms
+  cache:
+    ttl: 24h
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
